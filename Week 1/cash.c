@@ -1,10 +1,9 @@
 #include<stdio.h>
-	float c;
 #include<math.h>
 
 int main(){
-	//int div1, div2, div3, div4, counter=0;
 	int quarters, dimes, nickels, pennies;
+	float c;
 	
 	do{
 		printf("enter a value: ");
@@ -20,32 +19,6 @@ int main(){
 	pennies=(((cash%25)%10)%5;
 
 	cash=quarters+dimes+nickels+pennies;
-	
-	/*
-	while(1){
-		if(cash>=25){ //quarters
-			div1=cash/25;
-			counter+=div1;
-			cash-=div1*25;
-		}
-		else if(cash>=10){ //dimes
-			div2=cash/10;
-			counter+=div2;
-			cash-=div2*10;
-		}
-		else if(cash>=5){ //nickels
-			div3=cash/5;
-			counter+=div3;
-			cash-=div3*5;
-		}
-		else if(cash>=1){ //pennies
-			div4=cash/1;
-			counter+=div4;
-			cash-=div4*1;
-		}
-		else break;
-	}
-	*/
 	
 	printf("\nyour change is: %d", cash); //or counter
 	
