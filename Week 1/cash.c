@@ -20,7 +20,7 @@ int main(){
 
 	cash=quarters+dimes+nickels+pennies;
 	
-	printf("\nyour change is: %d", cash); //or counter
+	printf("\nyour change is: %d", cash);
 	
 	return 0;
 }
