@@ -41,7 +41,4 @@ void main(){
     else if((counter==16) && (ftdigits>50 && ftdigits<56) && lastdigit==0) printf("MASTERCARD"); //mastercard
     else if((counter==13 || counter==16) && (ftdigits>=40 && ftdigits<50) && lastdigit==0) printf("VISA"); //visa
     else (printf("INVALID"));
-    
-    
-
 }
