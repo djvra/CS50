@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 void main(){
 	
@@ -37,8 +37,8 @@ void main(){
     //printf("lastdigit is: %lld \n", lastdigit);
     
     
-    if((counter==15) && (ftdigits==34 || ftdigits==37) && lastdigit==0) printf("AMEX"); //Amex
-    else if((counter==16) && (ftdigits>50 && ftdigits<56) && lastdigit==0) printf("MASTERCARD"); //mastercard
-    else if((counter==13 || counter==16) && (ftdigits>=40 && ftdigits<50) && lastdigit==0) printf("VISA"); //visa
+    if((counter==15) && (ftdigits==34 || ftdigits==37) && lastdigit==0) printf("AMEX"); 
+    else if((counter==16) && (ftdigits>50 && ftdigits<56) && lastdigit==0) printf("MASTERCARD"); 
+    else if((counter==13 || counter==16) && (ftdigits>=40 && ftdigits<50) && lastdigit==0) printf("VISA");
     else (printf("INVALID"));
 }
